@@ -1,0 +1,10 @@
+@media(max-width:1000px){
+    .gallery{
+        width:50%;
+        margin-bottom: 50px;
+    }
+
+    .galleries-wrapper{
+        height:1050px;
+    }
+}
