@@ -1,10 +1,58 @@
+/*タブレット用*/
 @media(max-width:1000px){
     .gallery{
         width:50%;
         margin-bottom: 50px;
     }
 
-    .galleries-wrapper{
-        height:1050px;
+    .top-wrapper h1{
+        font-size: 32px;
     }
+
+    .top-wrapper p{
+        font-size: 20px;
+    }
+}
+
+/*スマホ用*/
+@media(max-width:670px){
+
+    .header-right{
+        display: none;
+    }
+
+    
+    .menu-icon{
+        display: block;
+    }
+
+    .gallery{
+        width:100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+    .youtube{
+        margin-bottom: 10px;
+    }
+
+    .top-wrapper h1,.top-wrapper p{
+        text-align: left;
+    }
+
+    .top-wrapper h1{
+        font-size: 24px;
+    }
+
+    .top-wrapper p{
+        font-size: 14px;
+    }
+
+
 }
