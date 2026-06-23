@@ -42,6 +42,10 @@
         margin-bottom: 10px;
     }
 
+    .top-wrapper{
+        background-position: 75% center;
+    }
+
     .top-wrapper h1,.top-wrapper p{
         text-align: left;
     }
